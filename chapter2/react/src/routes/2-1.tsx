@@ -30,6 +30,7 @@ function B({
   )
 }
 
+// 코드 2.2 유효한 형태의 JSX
 // 하나의 요소로 구성된 가장 단순한 형태
 const ComponentA = <A>안녕하세요.</A>
 
