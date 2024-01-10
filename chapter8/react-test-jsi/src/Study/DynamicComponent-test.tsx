@@ -25,7 +25,7 @@ describe("InputComponent 테스트", () => {
     expect(input).toHaveAttribute("maxLength", "20");
   });
 
-  // userEven.type: 사용자가 타이핑하는 것을 흉내 내는 메서드로 특별히 사용자의 이벤트를 흉내 내야 할 때만 userEvent를 사용한다.
+  // userEvent.type: 사용자가 타이핑하는 것을 흉내 내는 메서드로 특별히 사용자의 이벤트를 흉내 내야 할 때만 userEvent를 사용한다.
   it("영문과 숫자만 입력된다.", () => {
     const { input } = setup();
     const inputValue = "안녕하세요123";
